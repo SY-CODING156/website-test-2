@@ -1,0 +1,145 @@
+*{
+ font-family:Georgia, serif; 
+}
+body{
+  background-color:#A4B3AA;
+  width: 100%;
+}
+#imglogo{
+width: 210px;
+margin-top:10px;
+}
+.navbar{
+ background-color:#379B2A;
+ margin-left: 9px;
+ z-index: 2;
+ margin-top: -8px;
+ width: 100%;
+}
+#navbar{
+width:80%;
+min-width:600px;
+height:180px;
+display: flex;
+justify-content:space-around;
+align-items:center;
+margin:auto;
+margin-top:-160px;
+margin-right:-15px;
+}
+.a{
+  position:relative;
+  text-align:none;
+  font-size:50px;
+  text-transform:capitalize;
+  color:#EAEAEA;
+  text-decoration:none;
+  transition:0.3s;
+  padding:0 10px;
+}
+.a:before{
+  content:'';
+  width:0;
+  left:0;
+  height:10px;
+  position:absolute;
+  background-color:#FFF956;
+  bottom:-7px;
+  transition:0.3s;
+}
+.a:hover{
+  color:#fff;
+}
+.a:hover:before{
+  width:100%;
+}
+#IC{
+  background-color: #2A2764;
+  margin-left:8px;
+  height: 500px;
+}
+.hw{
+  color:#fff;
+  font-size: 80px;
+  margin-left: 70px;
+  margin-top: -30px;
+  font-size: bold;
+}
+.wt{
+  color: #fff;
+  font-size: 80px;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-size: bold;
+}
+#pi{
+  width: 850px;
+  height: 275px;
+  font-size: 60px;
+  color: #fff;
+  margin-left: 45px;
+  background-color: #35C71C;
+  border: 15px solid #4FA241;
+  padding: 5px;
+}
+#sm{
+  width: 300px;
+  border: 10px solid #4FA241;
+  margin-left: 80px;
+  margin-bottom: 400px;
+}
+#sp{
+  width: 330px;
+  border: 10px solid #4FA241;
+ 
+}
+#smp{
+  color: #fff;
+  font-size: 60px;
+  margin-left: 160px;
+  margin-top: -390px;
+}
+.spp{
+  color: #fff;
+  font-size: 60px;
+  margin-left: 63px;
+  margin-top: 5px;
+}
+.divmeme{
+  width: 450px;
+  height: 500px;
+}
+#divmap{
+  width: 450px;
+  height: 500px;
+  margin-left: 540px;
+  margin-top: -500px;
+}
+#yout{
+  width: 250px;
+  margin-left: 105px;
+  margin-top: -70px;
+}
+#tik{
+ width: 250px; 
+ margin-left: 305px;
+ margin-top: -70px;
+}
+.fty{
+  background-color: #fff;
+  border-radius: 10px;
+  height: 250px;
+  margin-top: -20px;
+  margin-left: 10px;
+}
+.ut{
+  padding: 15px;
+  font-size: 50px;
+  color: #000;
+}
+.uy{
+  padding: 15px;
+  font-size: 50px;
+  margin-top: 80px;
+  color: #000;
+}
